@@ -80,3 +80,30 @@ body{
     font-weight: 400;
     margin: 10px 0;
 }
+/*==========FOOTER==========*/
+#footer{
+    background-color: black;
+    color: white;
+    
+}
+#footer .footer-content{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding: 80px 0;
+    
+}
+#footer .footer-content .footer-menu{
+    margin: 0 20px;
+    list-style: none;
+    
+}
+#footer .footer-content .footer-menu .footer-menu-intem{
+    margin:25px 0;
+}
+#footer .footer-content .footer-menu p {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 0.7rem;
+}
