@@ -7,12 +7,33 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+/*=====Util class================ */
+.btn-primary{
+    background-color: #1DB954;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.logo{
+    height:40px ;
+    width: auto;
+}
+
+
+
 /*========== navbar=============*/
 #navbar{
     display: flex;
     background-color: rgba(0, 0, 0,0.6);
     color: white;
     justify-content: center;
+    position: fixed;
+    margin: 0%;
+    width: 100%;
 }
 #navbar #navbar-container{
     width: 60%;
@@ -21,23 +42,41 @@ body{
     justify-content: space-between;
     padding: 20px 0;
 }
-#navbar #navbar-container .logo{
-    height:40px ;
-    width: auto;
-}
+
 #navbar #navbar-container ul{
     display: flex;
     list-style: none;
+    font-weight: bold;
 }
 #navbar #navbar-container ul li{
     padding: 0 20px;
 }
+#navbar #navbar-container ul li:nth-child(3){
+    border-right: 1px solid white;
+}
+
+/*==========showcase==========*/
 
 .showcase{
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background:url("./assets/showcase.webp")center center/cover ;
+    background-color: rgba(0, 0, 0,0.3);
+    background-blend-mode: color;
 }
 .showcase .showcase-container{
     display: flex;
     flex-direction: column;
     align-items: center;
 } 
+.showcase .showcase-containe, h2{
+    font-size: 4rem;
+}
+.showcase .showcase-containe, p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 10px 0;
+}
