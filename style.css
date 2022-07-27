@@ -17,6 +17,11 @@ body{
     border-radius: 30px;
     letter-spacing: 1px;
     font-weight: bold;
+    transition: all 300ms ease;
+}
+.btn-primary:hover{
+    background: #1ED760;
+    cursor: pointer;
 }
 .logo{
     height:40px ;
@@ -50,7 +55,15 @@ body{
 }
 #navbar #navbar-container ul li{
     padding: 0 20px;
+    transition: all 300ms ease;
 }
+
+#navbar #navbar-container ul li:hover{
+    color: #1DB954;
+    cursor: pointer;
+    
+}
+
 #navbar #navbar-container ul li:nth-child(3){
     border-right: 1px solid white;
 }
@@ -84,15 +97,17 @@ body{
 #footer{
     background-color: black;
     color: white;
-    
+    padding: 80px 0;
 }
 #footer .footer-content{
     display: flex;
     width: 60%;
     margin: auto;
-    padding: 80px 0;
+    justify-content: space-between;
+   
     
 }
+
 #footer .footer-content .footer-menu{
     margin: 0 20px;
     list-style: none;
@@ -100,10 +115,84 @@ body{
 }
 #footer .footer-content .footer-menu .footer-menu-intem{
     margin:25px 0;
+    transition: all 300ms ease;
+}
+
+#footer .footer-content .footer-menu .footer-menu-intem:hover{
+    color: #1ED760;
+    cursor: pointer;
 }
 #footer .footer-content .footer-menu p {
     font-weight: bold;
     text-transform: uppercase;
-    color: #919496;
+    color: #929496;
     font-size: 0.7rem;
 }
+/*=========footer socials========== */
+.socials{
+    display: flex;
+}
+.socials i{
+    margin: 0 20px;
+    font-size: 1.4rem;
+    transition: all 300ms ease;
+}
+.socials i:hover{
+    color: #1DB954;
+    cursor: pointer;
+}
+/*==========footer info=========== */
+
+#footer .footer-info {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 60%;
+    margin: auto;
+    font-weight: bold;
+    font-size: 0.75rem;
+    padding-top: 50px;
+    color: #929496;
+}
+.footer-info .footer-info-intems{
+    display: flex;
+    list-style: none;
+}
+.footer-info .footer-info-intems .footer-info-intem{
+    padding: 0 10px;
+    transition: all 300ms ease;
+}
+.footer-info .footer-info-intems .footer-info-intem:hover{
+    color: #1ED760;
+    cursor: pointer;
+}
+.footer-info .rights .country{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+.footer-info .rights .country p{
+    transition: all 300ms ease;
+}
+.footer-info .rights .country p:hover{
+    color: #1ED760;
+    cursor: pointer;
+}
+.footer-info .rights .country .brasil-flag{
+    width: auto;
+    height: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
